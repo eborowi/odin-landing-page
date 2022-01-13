@@ -1,4 +1,77 @@
-.h1 {
-    color:red
+body{
+    
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+.head {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 10px;
+    color:white;
+    
+
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    gap: 14em;
+    padding-bottom: 10px;
+    align-items: flex-start;
+
+}
+
+.hero .left {
+    flex-wrap: wrap;
+    
+
+}
+
+.hero .right {
+    background-color: gray;
+
+}
+.hero, .head {
+    padding-right: 80px;
+    padding-left: 80px;
+
+}
+
+button {
+    font-size: 16px;
+    padding: 6px;
+    background-color: blue;
+    color:white;
+    
+
+}
+
+.company-examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+
+}
+.tagline {
+    font-size: 36px;
+    font-weight:400
+
+}
+.info-square {
+    display: flex;
+    gap: 5em;
+}
+
+.quote {
+    background-color: rgb(199, 198, 198);
 
 }
