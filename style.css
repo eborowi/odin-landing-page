@@ -9,21 +9,27 @@ a:link, a:visited, a:hover, a:active {
 .head {
     display:flex;
     justify-content: space-between;
-    background-color: #1f2937;
+    background-color: #1e4172;
     align-items: center;
     padding: 10px;
     color:white;
     
-
 }
+
+.head .head-links {
+    display: flex;
+    gap: 2em;
+}
+
+
 
 .hero {
     display: flex;
-    background-color: #1f2937;
+    background-color: #1e4172;
     color: white;
     justify-content: space-between;
     gap: 14em;
-    padding-bottom: 10px;
+    padding: 20px;
     align-items: flex-start;
 
 }
@@ -58,6 +64,8 @@ button {
     flex-direction: column;
     align-items: center;
     align-content: center;
+    padding: 20px;
+    gap: 4em;
     
 
 }
@@ -69,9 +77,37 @@ button {
 .info-square {
     display: flex;
     gap: 5em;
+    
+    
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .quote {
     background-color: rgb(199, 198, 198);
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    font-family:cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
 
+}
+
+.quote .quote-author {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.square img {
+    height:200px;
+    width: auto;
+}
+
+.sign-up {
+    padding-top: 40px;
 }
